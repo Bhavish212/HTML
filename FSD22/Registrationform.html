@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .hii{
+            border-style: outset;
+            border-radius: 10px;
+            border-width: 5px;
+        }
+
+        .hello{
+            border-style: inset;
+            border-radius: 10px;
+            border-width: 5px;
+        }
+
+        .hi{
+            border-style: inset;
+            border-width: 5px;
+            border-radius: 2px;
+        }
+
+        .h{
+            border-style: double;
+            border-radius: 2px;
+            border-width: 5px;
+        }
+
+        *{
+            background-image: url('image2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: top left;
+            background-color: rgb(236, 172, 54);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Registration Form</title>
+</head>
+<body>
+    <form>
+    <h1>Registration Form</h1>
+    <label for="Enter your details below">Enter your details below</label>
+    <br><br>
+    <ul>
+        <li>
+        <input type="email" placeholder="your_email@gmail.com" class="hii">
+        <br><br>
+    </li>
+        <li>
+        <input type="password" placeholder="Password" class="hello">
+        <br>
+    </li>
+    <p>Type a complex password with 8-20 characters</p>
+    <br>
+    <li>
+    <input type="number" placeholder="+20 Phone Number" class="hi">
+</li>
+</ul>
+    <hr>
+    <ul>
+    <label for="Enter your profession">Enter your profession</label>
+    <br><br>
+    <li>
+    <input type="radio" name="Profession" value="student">Student
+    <input type="radio" name="Profession" value="teacher">Teacher
+    <input type="radio" name="Profession" value="developer">Developer
+    <br><br>
+</li>
+    <label for="drop-down">Choose the stage if you are(student)</label>
+    <select name="drop-down" id="drop-down" class="h">
+        <option value="10th">10th</option>
+        <option value="12th">12th</option>
+        <option value="UG">UG</option>
+        <option value="PG">PG</option>
+    </select>
+</ul>
+    <hr>
+    <ul>
+        <li>
+    <label for="Enter your birth-date">Enter your birth-date</label>
+    <input type="date" name="date" class="h">
+</li>
+</ul>
+<hr>
+<ul>
+    <li>
+        <input type="text" placeholder="Any Notes" class="hi">
+    </li>
+</ul>
+<hr>
+<input type="submit" class="hii">
+<input type="reset" class="hello">
+</form>
+</body>
+</html>

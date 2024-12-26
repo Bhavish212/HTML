@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <form>
+            <label for="Name">Name</label><br>
+            <input type="text" required placeholder="Enter Your Name">
+            <br><br>
+            <label for="Email">Email</label><br>
+            <input type="email" required placeholder="Enter Your Email">
+            <br><br>
+            <label for="Roll No">Roll No</label><br>
+            <input type="number" required placeholder="Roll No">
+            <br><br>
+            <label for="drop-down">How Do You Rate Our Courses?</label><br>
+            <select name="drop-down" id="drop-down">
+                <option value="Excellent">Excellent</option>
+                <option value="V.Good">V.Good</option>
+                <option value="Good">Good</option>
+            </select>
+            <br><br>
+            <label for="HTML">Your Favorite Topic in HTML?</label><br>
+            <input type="checkbox" name="HTML" value="Structural Elements">Structural Elements<br>
+            <input type="checkbox" name="HTML" value="Links and Lists">Links and Lists<br>
+            <input type="checkbox" name="HTML" value="HTML Media">HTML Media<br>
+            <input type="checkbox" name="HTML" value="HTML Table">HTML Table<br>
+            <input type="checkbox" name="HTML" value="Grouping Elements">Grouping Elements<br>
+            <input type="checkbox" name="HTML" value="Forms">Forms<br>
+            <br><br>
+            <label for="answer">Do You Like The HTML Course?</label><br>
+            <input type="radio" name="answer" value="Yes">Yes
+            <input type="radio" name="answer" value="No">No
+            <br><br>
+            <label for="text">Few Words About Our Course</label><br>
+            <textarea rows="5" cols="50" name="text" id="text"></textarea>
+            <br><br>
+            <button type="button" onclick="alert('Validating')">Submit</button>
+        </form>
+    </body>
+</html>
