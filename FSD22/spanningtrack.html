@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 100px 100px;
+            background-color: #fff;
+            color: #444;
+            grid-gap: 10px;
+        }
+
+        .alpha{
+            border-radius: 5px;
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .a{
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        .b{
+            grid-column: 3;
+            grid-row: 1/3;
+        }
+
+        .c{
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .d{
+            grid-column: 2;
+            grid-row: 2;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Spanning Track</title>
+</head>
+<body>
+    <div class="container">
+        <div class="alpha a">A</div>
+        <div class="alpha b">B</div>
+        <div class="alpha c">C</div>
+        <div class="alpha d">D</div>
+    </div>
+    
+</body>
+</html>
