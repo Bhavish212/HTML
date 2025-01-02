@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            width: 600px;
+            height: 600px;
+            background-color: rgb(73, 73, 203);
+        }
+
+        .child{
+            width: 200px;
+            height: 200px;
+            background-color: lightcoral;
+        }
+
+        .container:hover > .child{
+           background-color: yellow;
+           animation-name: example;
+           animation-duration: 4s;
+        }
+
+        @keyframes example{
+            from {background-color:lightcoral} 
+            to {background-color:yellow}
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Animation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>
