@@ -1,0 +1,9 @@
+document.getElementById("p1").innerHTML = 'Hello I am Bhavish Narang And I am Learning JavaScript For The First Time';
+document.getElementById("p1").style.color = 'white';
+document.getElementById("p1").style.backgroundColor = '#444';
+document.getElementById("p1").style.textAlign = 'center';
+document.getElementById("intro").style.textTransform = 'uppercase';
+document.getElementById("intro").style.textAlign = 'center';
+document.getElementById("intro").style.fontSize = '35px';
+document.getElementById("intro").style.textDecoration = 'underline';
+document.body.style.backgroundColor = "lightcoral";
